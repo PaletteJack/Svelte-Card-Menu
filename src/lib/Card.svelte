@@ -33,6 +33,7 @@ export let pictureURL;
   border: 4px solid grey;
   border-radius: 15px;
   padding: 15px;
+  position: relative;
 }
 
 .card:hover {
@@ -41,7 +42,7 @@ export let pictureURL;
 
 .pt1 {
   width: 100%;
-  height: 100%;
+  height: 50%;
   border-radius: 15px;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
@@ -52,7 +53,6 @@ export let pictureURL;
 
 .pt2 {
   width: 100%;
-  height: 100%;
   display: flex;
   flex-direction: column;
 }

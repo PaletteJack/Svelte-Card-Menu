@@ -3,33 +3,38 @@
     const cardStuff = [
         {
             title: "All Users",
-            text: "This is an example of what a description would look like. It would describe the settings contained in the card.",
+            text: "Search for and manage users information.",
             pictureURL: "src/assets/user.png"
         },
         {
             title: "Import Users",
-            text: "This is an example of what a description would look like. It would describe the settings contained in the card.",
+            text: "Add users to the platform.",
             pictureURL:"src/assets/import.png"
         },
         {
             title: "Meeting Organizers",
-            text: "This is an example of what a description would look like. It would describe the settings contained in the card.",
+            text: "Set who can schedule connections and organize meetings.",
             pictureURL:"src/assets/videoconference.png"
         },
         {
             title: "Meeting Categories",
-            text: "This is an example of what a description would look like. It would describe the settings contained in the card.",
+            text: "Categorize your meeting organizers into subject types.",
             pictureURL:"src/assets/teacher.png"
         },
         {
             title: "Branding",
-            text: "This is an example of what a description would look like. It would describe the settings contained in the card.",
+            text: "Customize the site colors and logos to match your school or organization.",
             pictureURL:"src/assets/web-design.png"
         },
         {
             title: "Card Management",
-            text: "This is an example of what a description would look like. It would describe the settings contained in the card.",
+            text: "Customize cards to provide users with easy access to important apps and websites.",
             pictureURL:"src/assets/cards.png"
+        },
+        {
+            title: "Tags",
+            text: "Create tags to organize your users.",
+            pictureURL:"src/assets/tag.png"
         },
     ]
 </script>
@@ -44,6 +49,7 @@
             <div class="expand">
                 <Card {...cardStuff[0]} />
                 <Card {...cardStuff[1]} />
+                <Card {...cardStuff[6]} />
             </div>
         </li>
       <li>
